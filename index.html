@@ -1,0 +1,229 @@
+<!doctype html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Lucas | Portfólio</title>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=Syne:wght@400;700;800&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" href="/images/favicon.png" type="image/svg+xml">
+  <link rel="shortcut icon" href="/images/favicon.ico">
+</head>
+
+<body>
+  <nav>
+    <div class="nav-inner">
+      <a href="#hero" class="logo">&lt;<span>Lucas</span>/&gt;</a>
+      <ul>
+        <li><a href="#about">Sobre</a></li>
+        <li><a href="#portfolio">Projetos</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contato</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="wrapper">
+    <section id="hero">
+      <div class="hero-inner">
+        <h1>
+          Olá,<br />
+          <span class="dim">Sou o</span>
+          <span class="highlight">Lucas</span>
+        </h1>
+        <p class="hero-desc">
+          Desenvolvedor em formação em Ciência da Computação, com base técnica
+          em Análise e Desenvolvimento de Sistemas. Focado em código limpo,
+          arquitetura consistente e construção de aplicações completas, do
+          backend ao frontend.
+        </p>
+        <div class="hero-actions">
+          <a href="#portfolio" class="btn btn-primary">Ver projetos</a>
+          <a href="#contact" class="btn btn-outline">Contato</a>
+        </div>
+        <div class="hero-number">&lt;/&gt;</div>
+      </div>
+    </section>
+
+    <section id="about">
+      <p class="section-label reveal">01. sobre mim</p>
+      <h2 class="section-title reveal">
+        Quem sou <span class="dim">eu?</span>
+      </h2>
+      <div class="about-grid">
+        <div class="about-photo reveal">
+          <div class="photo-frame">
+            <img src="images/profile-picture.jpg" alt="Foto de perfil" />
+          </div>
+        </div>
+        <div class="about-text reveal">
+          <p>
+            Sou estudante de <strong>Ciência da Computação,</strong> com formação técnica em <strong>Análise
+              e Desenvolvimento de Sistemas pelo SENAI</strong> e formação complementar em desenvolvimento
+            web pelo <strong>Explorer (Rocketseat)</strong>. Possuo <strong>graduação em inglês</strong> e foco em
+            desenvolvimento
+            full stack, construindo aplicações completas com atenção à arquitetura,
+            tipagem consistente e organização escalável.
+          </p>
+          <p>
+            Trabalho principalmente com <strong>TypeScript, Next.js, NestJS e Prisma,</strong>
+            desenvolvendo APIs estruturadas, integrações consistentes entre
+            frontend e backend e modelagem eficiente de banco de dados. Tenho
+            experiência com autenticação, validação de dados, gerenciamento de
+            estado com React Query e deploy em ambientes como<strong> Vercel e Render.</strong>
+          </p>
+          <p>
+            · Código limpo e bem estruturado </br> · Separação clara de
+            responsabilidades </br>· Consistência entre contratos de API </br>· Boas
+            práticas de arquitetura </br>· Pensamento orientado à escalabilidade
+          </p>
+          <p>
+            Meu objetivo é evoluir como engenheiro de software, aprofundando
+            conhecimentos em arquitetura de sistemas, estruturas de dados e
+            otimização de performance, construindo<strong> soluções robustas e
+              sustentáveis a longo prazo.</strong>
+          </p>
+        </div>
+        <div class="about-stats reveal">
+          <div class="stat-item">
+            <div class="stat-num">1</div>
+            <div class="stat-label">Projeto concluído</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-num">Buscando</div>
+            <div class="stat-label">a primeira oportunidade</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-num">Sempre</div>
+            <div class="stat-label">a procura de evoluir</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="portfolio">
+      <p class="section-label reveal">02. projetos</p>
+      <h2 class="section-title reveal">
+        Projetos <span class="dim">feitos.</span>
+      </h2>
+      <div class="projects-grid">
+        <div class="project-card reveal">
+          <div class="project-thumb"><img src="/images/newest-app.png" alt="newest-app"></div>
+          <div class="project-body">
+            <div class="project-tags">
+              <span class="tag tag-nestjs">NESTJS</span>
+              <span class="tag tag-nextjs">NEXTJS</span>
+              <span class="tag tag-ws">PRISMA</span>
+            </div>
+            <h3 class="project-name">Newest App</h3>
+            <p class="project-desc">
+              Aplicação full stack com arquitetura modular em NestJS e frontend em Next.js. API estruturada com
+              separação clara de camadas, modelagem tipada com Prisma e integração consistente entre backend e frontend.
+            </p>
+            <div class="project-links">
+              <a href="https://newest-app.vercel.app/" class="project-link">Aplicação</a>
+              <a href="https://github.com/Lukynha15/Newest-FrontEnd" class="project-link">Front-end</a>
+              <a href="https://github.com/Lukynha15/Newest-BackEnd" class="project-link">Back-end</a>
+            </div>
+          </div>
+        </div>
+    </section>
+
+    <section id="skills">
+      <p class="section-label reveal">03. skills</p>
+      <h2 class="section-title reveal">
+        O que <span class="dim">uso.</span>
+      </h2>
+      <div class="skills-grid">
+        <div class="skill-card reveal">
+          <div class="skill-card-header">
+            <img src="/images/typescript.png" alt="typescript">
+            <span class="skill-name">TypeScript</span>
+          </div>
+          <p class="skill-desc">
+            Tipagem estática que garante contratos sólidos entre frontend e
+            backend, reduzindo bugs em runtime.
+          </p>
+        </div>
+
+        <div class="skill-card reveal">
+          <div class="skill-card-header">
+            <img src="/images/nextjs.png" alt="nextjs">
+            <span class="skill-name">Next.js</span>
+          </div>
+          <p class="skill-desc">
+            Framework React para aplicações full stack com SSR, rotas de API e
+            otimizações de performance out-of-the-box.
+          </p>
+        </div>
+
+        <div class="skill-card reveal">
+          <div class="skill-card-header">
+            <img src="/images/nestjs.png" alt="nestjs">
+            <span class="skill-name">NestJS</span>
+          </div>
+          <p class="skill-desc">
+            Framework Node.js com arquitetura modular e injeção de
+            dependências para APIs escaláveis e bem estruturadas.
+          </p>
+        </div>
+
+        <div class="skill-card reveal">
+          <div class="skill-card-header">
+            <img src="/images/prism.png" alt="prisma">
+            <span class="skill-name">Prisma</span>
+          </div>
+          <p class="skill-desc">
+            ORM moderno com tipagem automática e migrações declarativas para
+            modelagem eficiente de banco de dados.
+          </p>
+        </div>
+
+        <div class="skill-card reveal">
+          <div class="skill-card-header">
+            <img src="/images/React-Query.svg" alt="reactquery">
+            <span class="skill-name">React Query</span>
+          </div>
+          <p class="skill-desc">
+            Gerenciamento de estado assíncrono com cache, sincronização e
+            revalidação automática de dados do servidor.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <div class="contact-inner">
+        <p class="section-title-mono reveal">
+          Obrigado
+          <span style="color: var(--muted)">por chegar até aqui</span>
+        </p>
+        <p class="contact-desc reveal">
+          Se você leu até o final e se interessou, te convido a dar uma olhada
+          nas minhas redes sociais ou entrar em contato diretamente pelo
+          e-mail.
+        </p>
+        <a href="mailto:seuemail@email.com" class="contact-email reveal">lukynha48@gmail.com</a>
+        <div class="contact-socials reveal">
+          <a href="https://github.com/Lukynha15" class="social-link"><img src="/images/github.png" alt="github" /></a>
+          <a href="https://www.linkedin.com/in/LucasAssmann" class="social-link"><img src="/images/linkedin.png"
+              alt="linkedin" /></a>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <p>© 2026 — Feito com ❤️ por Lucas</p>
+      <p>
+        <a href="https://www.linkedin.com/in/LucasAssmann" target="_blank">Lucas Assmann</a>
+      </p>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
