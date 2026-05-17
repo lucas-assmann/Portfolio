@@ -363,6 +363,11 @@ h1 .highlight {
   color: #00ff99;
   border-color: rgba(0, 255, 153, 0.2);
 }
+.tag-postgresql {
+  background: rgba(51, 103, 145, 0.12);
+  color: #336791;
+  border-color: rgba(51, 103, 145, 0.3);
+}
 .project-name {
   font-size: 1.15rem;
   font-weight: 700;
