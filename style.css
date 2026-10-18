@@ -358,6 +358,11 @@ h1 .highlight {
   color: #ffffff;
   border: 1px solid rgba(255, 255, 255, 0.2);
 }
+.tag-react {
+  background: rgba(97, 218, 251, 0.08);
+  color: #61dafb;
+  border: 1px solid rgba(97, 218, 251, 0.25);
+}
 .tag-ws {
   background: rgba(0, 255, 153, 0.08);
   color: #00ff99;
